@@ -4,3 +4,5 @@ if temp>=5 and temp <= 30:
     print("you can go outside")
 elif temp <= 4:
     print("you cannot go outside")
+elif temp <1 or temp==4:
+    print("you cannot go outside today")
