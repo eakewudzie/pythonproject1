@@ -15,3 +15,7 @@
 
 for i in range(45,89):
     print(i+1)
+
+
+for i in "Eunice Kakra":
+    print(i)
