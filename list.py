@@ -9,7 +9,10 @@ food[0]="jollof"
 
 
 # print(food)
+food.append("ice cream")
+food.append("grilled chicken")
 
+# for loop to print each item in the list
 for y in food:
     print(y)
 
