@@ -7,3 +7,10 @@ print(student.index("Eunice"))
 
 
 print(student)
+
+for x in student:
+    print(x)
+
+
+if "Eunice" in student:
+    print("I am here") 
