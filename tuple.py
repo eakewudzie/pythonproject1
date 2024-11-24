@@ -4,3 +4,6 @@ student =("Eunice",26,"female")
 
 print(student.count("Eunice"))
 print(student.index("Eunice"))
+
+
+print(student)
