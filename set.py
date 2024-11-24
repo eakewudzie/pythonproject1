@@ -7,7 +7,7 @@
 # No Duplicates: Sets automatically remove duplicate values. If you add duplicates, they will be stored only once.
 
 utensils = {"fork","spoon","knife","saucepan"}
-
+dishes = {"bowl","plate","cup"}
 
 for x in utensils:
     print(x)
@@ -15,4 +15,11 @@ for x in utensils:
 
 utensils.add("cutting board")
 # utensils.remove("knife")
+# utensils.clear()
+print(utensils)
+
+
+# utensils can be updated with a different list
+
+utensils.update(dishes)
 print(utensils)
