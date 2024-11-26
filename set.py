@@ -23,3 +23,11 @@ print(utensils)
 
 utensils.update(dishes)
 print(utensils)
+
+
+# we could also have dinner_utensils to be equated to union of the two
+
+dinner_utensils = utensils.union(dishes)
+
+for y in dinner_utensils:
+    print(y)
