@@ -16,18 +16,19 @@ for x in utensils:
 utensils.add("cutting board")
 # utensils.remove("knife")
 # utensils.clear()
-print(utensils)
+# print(utensils)
 
 
 # utensils can be updated with a different list
 
-utensils.update(dishes)
-print(utensils)
+# utensils.update(dishes)
+# print(utensils)
 
+print(utensils.difference(dishes))
 
 # we could also have dinner_utensils to be equated to union of the two
 
-dinner_utensils = utensils.union(dishes)
+# dinner_utensils = utensils.union(dishes)
 
-for y in dinner_utensils:
-    print(y)
+# for y in dinner_utensils:
+#     print(y)
