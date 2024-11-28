@@ -13,4 +13,24 @@ capitals = {"Ghana" : "Accra" ,
 
 print(capitals["Germany"])
 
-print(capitals.get("Gambia","not available"))
+
+# The get() method in Python is used with dictionaries to retrieve the value associated with a specified key. It provides a safe way to access dictionary values without raising a KeyError if the key does not exist.
+
+# using the get methid to check the existence of the value of a key
+print(capitals.get("Gambia","not available")) # this prints "not available" as specified in the code when the value of the key stated does not exist. otherwise if not stated..the output would be none
+
+
+
+# ------------important to note-------------
+
+# Benefits of get()
+# Avoids Errors: It prevents the program from crashing when trying to access a non-existent key.
+# Provides Default Values: It allows you to return a default value if the key isn't present.
+
+
+
+
+
+# displaying only keys and values using these methods
+print(capitals.keys())
+print(capitals.values())
