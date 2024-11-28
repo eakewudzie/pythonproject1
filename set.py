@@ -25,7 +25,8 @@ utensils.update(dishes)
 print(utensils)
 
 print(utensils.difference(dishes))
-print(dishes.difference(utensils))
+print(dishes.difference(utensils)) # different items in the two sets
+print(utensils.intersection(dishes))
 
 # we could also have dinner_utensils to be equated to union of the two
 
@@ -37,3 +38,11 @@ for y in dinner_utensils:
 
 for d in dishes:
     print(d)
+
+
+
+
+
+print(utensils.intersection(dishes))
+print(utensils)
+print(dishes)
