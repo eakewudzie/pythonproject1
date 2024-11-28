@@ -33,3 +33,7 @@ dinner_utensils = utensils.union(dishes)
 
 for y in dinner_utensils:
     print(y)
+
+
+for d in dishes:
+    print(d)
