@@ -34,3 +34,10 @@ print(capitals.get("Gambia","not available")) # this prints "not available" as s
 # displaying only keys and values using these methods
 print(capitals.keys())
 print(capitals.values())
+
+print(capitals.items())#this prints all the items in the dictionary i.e the key and value alike
+
+
+# anoher way to display all key value pairs is he for loop
+for k,v in capitals.items():
+    print(k,v)   # where k=key, v=value
