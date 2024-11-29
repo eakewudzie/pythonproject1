@@ -53,3 +53,9 @@ capitals.update({"Ghana":"Kumasi"})
 for k,v in capitals.items():
     print(k,v)   # where k=key, v=value
 
+capitals.pop("Ghana") #remove  the key with it's value from the dictionary capitals
+capitals.clear() #clear the whole dictionary
+
+
+
+print(capitals.items())
