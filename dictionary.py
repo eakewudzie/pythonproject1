@@ -41,3 +41,15 @@ print(capitals.items())#this prints all the items in the dictionary i.e the key 
 # anoher way to display all key value pairs is he for loop
 for k,v in capitals.items():
     print(k,v)   # where k=key, v=value
+
+
+
+
+capitals.update({"Russia":"Moscow"})
+# or update a dictionary's value for  key
+capitals.update({"Ghana":"Kumasi"})
+
+
+for k,v in capitals.items():
+    print(k,v)   # where k=key, v=value
+
