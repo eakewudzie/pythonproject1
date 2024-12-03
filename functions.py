@@ -12,9 +12,13 @@ def hello():
 hello()
 
 
+# return statement = functions send Python values/objects back to the caller. 
+# these values/objects are known as the function's return value
+
+
 def greetings(name):
     print("Hello, " +name)
-
+ 
 
 greetings("Eunice")
 
