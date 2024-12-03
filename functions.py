@@ -20,7 +20,7 @@ greetings("Eunice")
 
 
 def mult(num1,num2):
-    return num1 + num2
+    return num1 * num2
 
 x = mult(5,3)
 
