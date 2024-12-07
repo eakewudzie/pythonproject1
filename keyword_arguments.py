@@ -6,3 +6,6 @@ def Hello(first,middle,last):
 
 
 Hello("Eunice","Kakra","Ama")
+
+# this is how key word arguments work
+Hegit llo(middle="Ama",first="Kakra",last="Eunice")
