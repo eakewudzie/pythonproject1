@@ -9,3 +9,24 @@ def add(*args):
 
 
 print(add(1,10,3))
+
+
+
+def add(*stuff):
+    sum = 0
+    stuff = list(stuff)
+    stuff[0] = 0
+    for i in stuff:
+        sum+=1
+    return sum
+
+# print(add(1,2,3,4))
+
+
+
+
+
+
+
+
+
