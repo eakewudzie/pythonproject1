@@ -20,7 +20,7 @@ def add(*stuff):
         sum+=1
     return sum
 
-print(add(1,2,3,4))
+print(add(1,2,3,4,6,7))
 
 
 
