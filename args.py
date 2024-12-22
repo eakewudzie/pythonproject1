@@ -14,13 +14,17 @@ print(add(1,10,3))
 
 def add(*stuff):
     sum = 0
-    stuff = list(stuff)
+    stuff = list(stuff) # tuples can't be changed...but to change or add....convert to list here by casting it
     stuff[0] = 0
     for i in stuff:
-        sum+=1
+        sum += i
     return sum
 
-print(add(1,2,3,4,6,7))
+
+
+
+
+print(add(1,2,3,4,5,6))
 
 
 
