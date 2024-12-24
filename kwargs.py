@@ -2,4 +2,8 @@
 #             useful so that a function can accept a carying amoun of keyword arguments
 
 def Hello(**kwargs):
-    print("Hello")
+    print("Hello "+ kwargs['first'] + " " + kwargs['last'])
+
+
+
+Hello(first="Bro",middle="Dude",last="Code")
