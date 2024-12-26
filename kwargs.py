@@ -2,8 +2,10 @@
 #             useful so that a function can accept a carying amoun of keyword arguments
 
 def Hello(**kwargs):
-    print("Hello "+ kwargs['first'] + " " + kwargs['last'])
+    # print("Hello "+ kwargs['first'] + " " + kwargs['middle'])
 
+    print("Hi", end=" " )
+    for key,value in kwargs.items():
+        print(value, end=" ")
 
-
-Hello(first="Bro",middle="Dude",last="Code")
+Hello(first="Eunice",middle="K",last="Ewudzie")
