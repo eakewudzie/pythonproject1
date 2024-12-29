@@ -18,3 +18,12 @@ print("the {} jumped over the {}".format("cat","moon"))
 # {} these are the format fields...
 
 print("the {} jumped over the {}".format(animal,item)) # the values of the variables can be replaced by the name of he variables themselves and still work
+# in this case.. it is positional argument
+print("the {1} jumped over the {1}".format(animal,item))#positional argument
+
+
+print("The {animal} jumped over the {item}".format(animal="elephant", item="star")) #keyword argument
+
+# we can also have it as this
+text = "the {} jumped over the {}"
+print(text.format(animal,item))
