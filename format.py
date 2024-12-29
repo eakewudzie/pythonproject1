@@ -27,3 +27,12 @@ print("The {animal} jumped over the {item}".format(animal="elephant", item="star
 # we can also have it as this
 text = "the {} jumped over the {}"
 print(text.format(animal,item))
+
+
+
+# adding a padding to a text
+surname ="Ewudzie"
+
+
+print("Hello, my name is {}".format(surname))
+print("Hello, my name is {:30}. it is nice to finally meet you".format(surname))
