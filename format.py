@@ -38,3 +38,10 @@ print("Hello, my name is {}".format(surname))
 print("Hello, my name is {:30}. it is nice to finally meet you".format(surname)) #padding
 print("Hello, my name is {:<20}. Great to know you".format(surname))  #left align...bu by default already left aligned
 print("Hello, my name is {:>20}. Great to know you".format(surname)) #right aligned
+print("Hello, my name is {:^20}. Great to know you".format(surname)) # center use caret to cener align within the padding you have alloted
+
+
+myNum = 5.987
+
+#to format to display only first two decimal placesd...we can have this...
+print("The number is {:.2f}".format(myNum))
