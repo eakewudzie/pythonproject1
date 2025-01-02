@@ -46,3 +46,6 @@ myNum = 5.987
 #to format to display only first two decimal placesd...we can have this...
 print("The number is {:.2f}".format(myNum))
 print("The number is {:,}".format(myNum))
+# find out why the comma does not show
+
+print("The number is {:e}".format(myNum)) #display for sientific notation
