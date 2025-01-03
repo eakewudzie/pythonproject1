@@ -41,7 +41,7 @@ print("Hello, my name is {:>20}. Great to know you".format(surname)) #right alig
 print("Hello, my name is {:^20}. Great to know you".format(surname)) # center use caret to cener align within the padding you have alloted
 
 
-myNum = 5.987
+myNum = 800
 
 #to format to display only first two decimal placesd...we can have this...
 print("The number is {:.2f}".format(myNum))
@@ -49,3 +49,5 @@ print("The number is {:,}".format(myNum))
 # find out why the comma does not show
 
 print("The number is {:e}".format(myNum)) #display for sientific notation
+print("The number is {:X}".format(myNum))
+print("The number is {:b}".format(myNum))
