@@ -48,6 +48,7 @@ print("The number is {:.2f}".format(myNum))
 print("The number is {:,}".format(myNum))
 # find out why the comma does not show
 
-print("The number is {:e}".format(myNum)) #display for sientific notation
+print("The number is {:e}".format(myNum)) #display for scientific notation
 print("The number is {:X}".format(myNum))
 print("The number is {:b}".format(myNum))
+print("The number is {:E}".format(myNum))
