@@ -52,3 +52,4 @@ print("The number is {:e}".format(myNum)) #display for scientific notation
 print("The number is {:X}".format(myNum))
 print("The number is {:b}".format(myNum))
 print("The number is {:E}".format(myNum))
+print("The number is {:E}".format(myNum))
