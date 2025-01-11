@@ -16,3 +16,18 @@ try:
     print(result)
 except ZeroDivisionError:
     print("You cannot divide a number by Zero: You should know this")
+
+
+
+
+
+
+try:
+    My_num = int(input("Enter a number to divide: "))
+    My_den = int(input("Enter a number to divide by: "))
+
+    result = My_num / My_den
+
+    print(result)
+except ZeroDivisionError:
+    print("You cannot divide a number by Zero:")
