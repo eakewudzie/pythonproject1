@@ -7,15 +7,15 @@
 
 # print(result)
 # for instance , division by 0 would throw an error. To prevent this, we introduce try block
-try:
-    numerator = int(input("Enter a number to divide: "))
-    denominator = int(input("Enter a number to divide by: "))
+# try:
+#     numerator = int(input("Enter a number to divide: "))
+#     denominator = int(input("Enter a numb4er to divide by: "))
 
-    result = numerator / denominator
+#     result = numerator / denominator
 
-    print(result)
-except ZeroDivisionError:
-    print("You cannot divide a number by Zero: You should know this")
+#     print(result)
+# except ZeroDivisionError:
+#     print("You cannot divide a number by Zero: You should know this")
 
 
 
@@ -31,3 +31,7 @@ try:
     print(result)
 except ZeroDivisionError:
     print("You cannot divide a number by Zero(0):")
+except ValueError:
+    print("Enter only values that are numbers please")
+except Exception:
+    print("Something went wrong")
