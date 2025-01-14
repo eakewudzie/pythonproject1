@@ -30,4 +30,4 @@ try:
 
     print(result)
 except ZeroDivisionError:
-    print("You cannot divide a number by Zero:")
+    print("You cannot divide a number by Zero(0):")
