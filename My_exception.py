@@ -28,7 +28,7 @@ try:
 
     result = My_num / My_den
 
-    print(result)
+    # print(result)
 except ZeroDivisionError as E:
     print(E)
     print("You cannot divide a number by Zero(0):")
@@ -38,3 +38,5 @@ except ValueError as E:
 except Exception as E:
     print(E)
     print("Something went wrong")
+else:
+    print(result)
