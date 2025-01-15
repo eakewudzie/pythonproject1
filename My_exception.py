@@ -29,9 +29,12 @@ try:
     result = My_num / My_den
 
     print(result)
-except ZeroDivisionError:
+except ZeroDivisionError as E:
+    print(E)
     print("You cannot divide a number by Zero(0):")
-except ValueError:
+except ValueError as E:
+    print(E)
     print("Enter only values that are numbers please")
-except Exception:
+except Exception as E:
+    print(E)
     print("Something went wrong")
