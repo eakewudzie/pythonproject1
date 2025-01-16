@@ -40,3 +40,4 @@ except Exception as E:
     print("Something went wrong")
 else:
     print(result)
+    print("Great you got it")
