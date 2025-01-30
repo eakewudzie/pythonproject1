@@ -43,6 +43,6 @@ for d in dishes:
 
 
 
-print(utensils.intersection(dishes))
+print(utensils.intersection(dishes)) #this is to check what they have in common
 print(utensils)
 print(dishes)

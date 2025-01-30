@@ -1,9 +1,13 @@
 import os
 
 source = "test.txt"
-destination = ""
+destination = "C:\\Users\\EUNICE\\Desktop\\TextFolder\\test.txt"
 
 
 try:
-    except FileNotFoundError:
-        print(source+" was not found")
+    if os.path.exists(destination):
+        print("There is already a file as this")
+    else:
+        os.replace(source,destination)
+except FileNotFoundError:
+    print(source+" was not found")
