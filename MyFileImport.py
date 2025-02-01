@@ -9,6 +9,6 @@ try:
         print("There is already a file as this")
     else:
         os.replace(source,destination)
-        print(source+" has been moved")
+        print(source+" has been moved to the destination")
 except FileNotFoundError:
     print(source+" was not found")
