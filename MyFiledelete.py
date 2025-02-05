@@ -6,6 +6,7 @@
 #  the built-in os module, which provides functions for
 #  interacting with the operating system.
 import os
+import shutil
 path = "text.txt"
 pathDir = "MyFold"
 nEmpty = "nemptyFolder"
@@ -29,8 +30,12 @@ else:
     print(pathDir + " was deleted")
 
 
+
+
+# the shutil.rmtree() function removes flder permanentlly and all files within it
 try:
     os.rmdir(nEmpty)
+    # shutil.rmtree(nEmpty)
 except OSError:
     print(nEmpty +" Folder is not empty")
 else:
