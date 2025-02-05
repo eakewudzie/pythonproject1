@@ -41,3 +41,5 @@ except Exception as E:
 else:
     print(result)
     print("Great you got it")
+finally: #whether or not we catch an exception....this will always execute
+    print("You have come to the end of the section")
