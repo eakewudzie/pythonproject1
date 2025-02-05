@@ -10,10 +10,10 @@ import shutil
 path = "text.txt"
 pathDir = "MyFold"
 nEmpty = "nemptyFolder"
-# os.remove('path')
+
 
 try:
-    os.remove('path')
+    os.remove('path') #delete file
 except FileNotFoundError:
     print("The File not found")
 
