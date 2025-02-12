@@ -1,19 +1,24 @@
 
 # rock ,paper , scissors game
-
+# print("Enter one of the choices provided: ")
 import random
 choices = ["rock","scissors","paper"]
 
 computer = random.choice(choices)
+person1 = None
 
-person1 = input("Enter your choice: rock,paper or scissors: " )
-if person1 not in choices:
-    print("select from the choices here")
-else:
-    print(person1)
+while person1 not in choices:
+    person1 = input("Enter your choice: rock,paper or scissors: " )
+    
 
-print(computer)
-# print(person1)
+
+
+# if 
+
+
+
+print("computer: ",  computer)
+print(person1)
 
 
 
