@@ -20,6 +20,12 @@ elif person1 == "rock":
         print("computer: ", computer)
         print("person1: ", person1)
         print("You lose!")
+    if computer == "scissors":
+        print("computer: ", computer)
+        print("person1: ", person1)
+        print("You win")
+
+        
 
 
 
