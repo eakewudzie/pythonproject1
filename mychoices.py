@@ -97,10 +97,10 @@ while True:
             print("computer:", computer)
             print("person1:", person1)
             print("You win!")
-
+# check this section again
     play_again = input("Would you like to play again? Yes or No: ").lower()
     if play_again != "yes":
         break
 
-print("Bye then")
+print("Bye then. later")
 
