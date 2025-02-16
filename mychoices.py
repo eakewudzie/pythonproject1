@@ -71,20 +71,11 @@ while True:
         print("person1:", person1)
         print("Tie!")
     elif person1 == "rock":
-        if computer == "paper":
+        if computer == "paper": 
             print("computer:", computer)
             print("person1:", person1)
             print("You lose!")
-        elif computer == "scissors":
-            print("computer:", computer)
-            print("person1:", person1)
-            print("You win!")
-    elif person1 == "paper":
         if computer == "scissors":
-            print("computer:", computer)
-            print("person1:", person1)
-            print("You lose!")
-        elif computer == "rock":
             print("computer:", computer)
             print("person1:", person1)
             print("You win!")
@@ -93,11 +84,20 @@ while True:
             print("computer:", computer)
             print("person1:", person1)
             print("You lose!")
-        elif computer == "paper":
+        if computer == "paper":
             print("computer:", computer)
             print("person1:", person1)
             print("You win!")
-# check this section again
+    elif person1 == "paper":
+        if computer == "scissors":
+            print("computer:", computer)
+            print("person1:", person1)
+            print("You lose!")
+        if computer == "rock":
+            print("computer:", computer)
+            print("person1:", person1)
+            print("You win!")
+# fixed
     play_again = input("Would you like to play again? Yes or No: ").lower()
     if play_again != "yes":
         break
