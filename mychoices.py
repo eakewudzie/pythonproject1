@@ -102,5 +102,5 @@ while True:
     if play_again != "yes":
         break
 
-print("Bye then. later")
+print("Bye then. See you later..........")
 
