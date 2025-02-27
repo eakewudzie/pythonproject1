@@ -7,7 +7,7 @@ import myMsg
 
 # from myMsg import hello,bye -------------can also be used to select specific modules to work with 
 # from myMsg import *  will select everything....for instance all (modules) in this module is 
-import while_loop
+# import while_loop------------used this to check module info
 myMsg.hello()
 myMsg.bye()
 
@@ -15,7 +15,7 @@ myMsg.bye()
 
 
 # help("modules")
-help(while_loop)
+# help(while_loop)
 
 
 
