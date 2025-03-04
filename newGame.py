@@ -9,4 +9,13 @@ def display_score():
 
 def play_again():
     pass
+
+
+
+questions ={()
+
+}
+
+options = [
     
+]
