@@ -12,7 +12,9 @@ def play_again():
 
 
 
-questions ={()
+questions ={
+    "Who created electricity?" : "A"
+    "What which was it created?: ""
 
 }
 
