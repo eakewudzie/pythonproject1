@@ -13,11 +13,13 @@ def play_again():
 
 
 questions ={
-    "Who created electricity?" : "A"
-    "What which was it created?: ""
+    "Who created Python?: " "A",
+    "What year was Python creaed?: ": "B",
+    "Python is tributed to which comedy group?" :"C",
+    "Is the Earth round? ": "A"
 
 }
 
-options = [
+options = [["A. Guido van Rossum", "B. Elon Musk", "C. Bill Gates"]
     
 ]
