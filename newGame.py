@@ -1,5 +1,8 @@
 def new_game():
-    pass
+    
+    guesses = []
+    correct_guesses = 0
+    question_num = 1
 
 def check_answer():
     pass
