@@ -9,6 +9,11 @@ def new_game():
         print(key)
         for y in options[question_num-1]:
             print(y)
+        guess = input("Enter either (A,B,C or D): as your answer: ")
+        guess = guess.upper()
+        guesses.append(guess)
+
+        
         question_num += 1
 
 def check_answer():
