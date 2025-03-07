@@ -3,6 +3,13 @@ def new_game():
     guesses = []
     correct_guesses = 0
     question_num = 1
+    
+    for key in questions:
+        print("\n")
+        print(key)
+        for y in options[question_num-1]:
+            print(y)
+        question_num += 1
 
 def check_answer():
     pass
@@ -16,10 +23,10 @@ def play_again():
 
 
 questions ={
-    "Who created Python?: " "A",
-    "What year was Python creaed?: ": "B",
-    "Python is tributed to which comedy group?" :"C",
-    "Is the Earth round? ": "D"
+    "Who created Python?: ": "A",
+    "What year was Python created?: ": "B",
+    "Python is tributed to which comedy group?: " :"C",
+    "Is the Earth round?:  ": "D"
 
 }
 
