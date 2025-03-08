@@ -13,6 +13,9 @@ def new_game():
         guess = guess.upper()
         guesses.append(guess)
 
+        check_answer(questions.get(key).guess)
+        
+
         
         question_num += 1
 
