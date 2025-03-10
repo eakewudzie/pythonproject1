@@ -13,7 +13,7 @@ def new_game():
         guess = guess.upper()
         guesses.append(guess)
 
-        check_answer(questions.get(key).guess)
+        correct_guesses+=check_answer(questions.get(key).guess)
         
 
         
