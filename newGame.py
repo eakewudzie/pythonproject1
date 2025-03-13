@@ -19,10 +19,10 @@ def new_game():
         
         question_num += 1
     display_score(correct_guesses,guesses)
-    
+
 def check_answer(answer,guess):
     if answer == guess:
-        print("Correct")
+        print("Correct  .......................")
         return 1
     else:
         print("wrong")
