@@ -22,7 +22,7 @@ def new_game():
 
 def check_answer(answer,guess):
     if answer == guess:
-        print("Correct  .......................")
+        print("Correct")
         return 1
     else:
         print("wrong")
