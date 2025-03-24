@@ -10,7 +10,7 @@ def new_game():
         for y in options[question_num-1]:
             print(y)
         guess = input("Enter either (A,B,C or D): as your answer: ")
-        guess = guess.upper()
+        guess = guess.upper() # get the input of the guesses and then make it uppercase
         guesses.append(guess)
 
         correct_guesses+=check_answer(questions.get(key).guess)
@@ -20,7 +20,7 @@ def new_game():
         question_num += 1
     display_score(correct_guesses,guesses)
 
-def check_answer(answer,guess):
+def check_answer(answer,guess): 
     if answer == guess:
         print("Correct")
         return 1
@@ -28,11 +28,14 @@ def check_answer(answer,guess):
         print("wrong")
         return 0
 
-def check_answer():
-    pass
+# def check_answer():
+#     pass
 
-def display_score():
-    pass
+def display_score(correct_guesses,guesses):
+    print("----------------")
+    print("RESULTS")
+    print("----------------")
+    print("Answers")
 
 def play_again():
     pass
