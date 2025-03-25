@@ -13,10 +13,8 @@ def new_game():
         guess = guess.upper() # get the input of the guesses and then make it uppercase
         guesses.append(guess)
 
-        correct_guesses+=check_answer(questions.get(key).guess)
-        
-
-        
+        correct_guesses +=check_answer(questions.get(key), guess)
+                
         question_num += 1
     display_score(correct_guesses,guesses)
 
@@ -33,9 +31,18 @@ def check_answer(answer,guess):
 
 def display_score(correct_guesses,guesses):
     print("----------------")
-    print("RESULTS")
+    print("RESULTS") 
     print("----------------")
-    print("Answers")
+
+    print("Answers: ", end="")
+    for i in questions:
+        print(questions.get(i), end="")
+    print()
+
+    print("Guesses: ", end="")
+    for i in guesses:
+        print(i, end="")
+    print()
 
 def play_again():
     pass
