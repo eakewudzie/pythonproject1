@@ -23,7 +23,7 @@ def check_answer(answer,guess):
         print("Correct answer")
         return 1
     else:
-        print("wrong")
+        print("wrong answer")
         return 0
 
 # def check_answer():
